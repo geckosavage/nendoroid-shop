@@ -1,0 +1,35 @@
+{
+    "nendoroid_figures": [
+      {
+        "name": "Shiroko Sunaookami",
+        "id": "BA001",
+        "description": "Shiroko Sunaookami, the skilled marksman from Abydos High School, in her combat outfit.",
+        "price": 62.99
+      },
+      {
+        "name": "Hoshino Takanashi",
+        "id": "BA002",
+        "description": "Hoshino Takanashi, the laid-back yet reliable tank from the Countermeasure Council.",
+        "price": 59.99
+      },
+      {
+        "name": "Arona",
+        "id": "BA003",
+        "description": "Arona, the mysterious and powerful advisor of the Sensei, with her serene expression.",
+        "price": 65.99
+      },
+      {
+        "name": "Izuna",
+        "id": "BA004",
+        "description": "Izuna, the energetic ninja from the Ninjutsu Research Club, ready for action.",
+        "price": 61.99
+      },
+      {
+        "name": "Kyouyama Kazusa",
+        "id": "BA005",
+        "description": "Kyouyama Kazusa, the talented and stoic pianist from the Game Development Club, with her serious expression.",
+        "price": 63.99
+      }
+    ]
+  }
+  

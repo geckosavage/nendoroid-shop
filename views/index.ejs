@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nendoroid Shop</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nendoroid Shop</h1>
+    <p>Your favorite Blue Archive characters in Nendoroid form!</p>
+  </header>
+
+  <main>
+    <div class="product-list">
+      <% products.forEach(product => { %>
+        <div class="product-item">
+          <img src="/images/<%= product.id.toLowerCase() %>.jpg" alt="<%= product.name %>">
+          <h2><a href="/product/<%= product.id %>"><%= product.name %></a></h2>
+          <p>Price: $<%= product.price %></p>
+        </div>
+      <% }); %>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Nendoroid Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
