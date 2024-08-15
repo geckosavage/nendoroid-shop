@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4fc; /* Light blue background */
+  background-image: url('C:\Users\ADMIN\nendoroid-shop-1\public\images\background.jpg'); /* Add background image */
+  background-size: cover;
+  background-position: center;
+  color: #333; /* Dark text color for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2a5db0; /* Blue Archive theme blue for headings */
+}
+
+a {
+  color: #2a5db0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 10px 20px;
+  border-bottom: 2px solid #2a5db0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #2a5db0;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #1c3d73; /* Darker blue on hover */
+}
+
+/* Logo as Home Button */
+.logo {
+  background-image: url('C:\Users\ADMIN\nendoroid-shop-1\public\images\logo.png'); /* Add custom logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 120px; /* Adjust width as needed */
+  height: 60px; /* Adjust height as needed */
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  transition: transform 0.3s ease;
+}
+
+/* Product List */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 products in a row */
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Button */
+button {
+  background-color: #2a5db0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c3d73;
+  opacity: 0.8; /* Fade-out effect */
+}
+
+button:active {
+  opacity: 0.6; /* Further fade-out when clicked */
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border-top: 2px solid #2a5db0;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
+
+footer small {
+  font-size: 10px;
+  display: block;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-out;
+}

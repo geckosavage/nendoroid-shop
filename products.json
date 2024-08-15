@@ -1,35 +1,64 @@
 {
-    "nendoroid_figures": [
-      {
-        "name": "Shiroko Sunaookami",
-        "id": "BA001",
-        "description": "Shiroko Sunaookami, the skilled marksman from Abydos High School, in her combat outfit.",
-        "price": 62.99
-      },
-      {
-        "name": "Hoshino Takanashi",
-        "id": "BA002",
-        "description": "Hoshino Takanashi, the laid-back yet reliable tank from the Countermeasure Council.",
-        "price": 59.99
-      },
-      {
-        "name": "Arona",
-        "id": "BA003",
-        "description": "Arona, the mysterious and powerful advisor of the Sensei, with her serene expression.",
-        "price": 65.99
-      },
-      {
-        "name": "Izuna",
-        "id": "BA004",
-        "description": "Izuna, the energetic ninja from the Ninjutsu Research Club, ready for action.",
-        "price": 61.99
-      },
-      {
-        "name": "Kyouyama Kazusa",
-        "id": "BA005",
-        "description": "Kyouyama Kazusa, the talented and stoic pianist from the Game Development Club, with her serious expression.",
-        "price": 63.99
-      }
-    ]
-  }
-  
+  "nendoroid_figures": [
+    {
+      "name": "Shiroko Sunaookami",
+      "id": "shiroko",
+      "description": "Shiroko Sunaookami, the skilled marksman from Abydos High School, in her combat outfit.",
+      "price": 62.99
+    },
+    {
+      "name": "Hoshino Takanashi",
+      "id": "hoshino",
+      "description": "Hoshino Takanashi, the laid-back yet reliable tank from the Countermeasure Council.",
+      "price": 59.99
+    },
+    {
+      "name": "Arona",
+      "id": "arona",
+      "description": "Arona, the mysterious and powerful advisor of the Sensei, with her serene expression.",
+      "price": 65.99
+    },
+    {
+      "id": "aru",
+      "name": "Aru Rikuhachima",
+      "description": "Aru Rikuhachima, Gehenna Academy's self-appointed president of Problem Solver 68!",
+      "price": 61.99
+    },
+    {
+      "id": "kazusa",
+      "name": "Kyouyama Kazusa",
+      "description": "Kazusa Kyoyama, a Trinity General School student and member of the After-School Sweets Club!",
+      "price": 63.99
+    },
+    {
+      "id": "hifumi",
+      "name": "Hifumi Ajitani",
+      "description": "Hifumi Ajitani, a Trinity General School student belonging to the Supplementary Lessons Department!",
+      "price": 60.99
+    },
+    {
+      "id": "mika",
+      "name": "Mika Misono",
+      "description": "Trinity General School Tea Party member Mika Misono!",
+      "price": 64.99
+    },
+    {
+      "id": "yuuka",
+      "name": "Yuuka Hayase",
+      "description": "Yuuka Hayase, the treasurer of Seminar, the student council at Millennium Science School!",
+      "price": 62.99
+    },
+    {
+      "id": "noa",
+      "name": "Noa Ushio",
+      "description": "The secretary of Seminar, the student council at Millennium Science School!",
+      "price": 61.99
+    },
+    {
+      "id": "nonomi",
+      "name": "Izayoi Nonomi",
+      "description": "Nonomi Izayoi, member of the Countermeasures Committee at Abydos High School!",
+      "price": 61.99
+    }
+  ]
+}
